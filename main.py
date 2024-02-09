@@ -2,9 +2,9 @@ from tkinter import *
 from pytube import YouTube
 import pyperclip
 
-def copyPast():
-    text = SaveEnteryToDownloadLInk()
-    pyperclip.copy(text)
+# def copyPast():
+#     text = SaveEnteryToDownloadLInk()
+#     pyperclip.copy(text)
 # Download Funtions to Download Video 
 def Download_video():
     link = SaveEnteryToDownloadLInk()
